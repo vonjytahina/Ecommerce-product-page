@@ -128,7 +128,7 @@ lightBoxCloseButton.onclick = () => {
 // lightBox thumbnail
 for (let i = 0; i < lightBoxThumbnail.length; i++) {
   lightBoxThumbnail[i].onclick = () => {
-    lightBoxImage.src = `/images/image-product-${i + 1}.jpg`;
+    lightBoxImage.src = `images/image-product-${i + 1}.jpg`;
     for (let j = 0; j < lightBoxThumbnail.length; j++) {
       if (j == i) {
         lightBoxThumbnail[j].classList.add("active");
