@@ -104,7 +104,7 @@ mobileNextArrow.onclick = () => {
 // desktop thumbnail
 for (let i = 0; i < desktopThumbnail.length; i++) {
   desktopThumbnail[i].onclick = () => {
-    desktopImage.src = `/images/image-product-${i + 1}.jpg`;
+    desktopImage.src = `images/image-product-${i + 1}.jpg`;
     for (let j = 0; j < desktopThumbnail.length; j++) {
       if (j == i) {
         desktopThumbnail[j].classList.add("active");
